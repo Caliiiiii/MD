@@ -1,0 +1,12 @@
+DATA:
+  max_left_len: 23
+  max_right_len: 70
+  use_pos: False
+  max_hop: 4
+MODEL:
+  first_last_avg: False
+  cat_method: cat
+TRAIN:
+  train_epochs: 15
+  class_weight: 1
+  train_batch_size: 16

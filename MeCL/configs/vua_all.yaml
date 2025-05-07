@@ -1,0 +1,12 @@
+DATA:
+  max_left_len: 135
+  max_right_len: 90
+  max_hop: 6
+MODEL:
+  first_last_avg: True
+  new_cat_method: 'cat'
+TRAIN:
+  train_batch_size: 64
+  val_batch_size: 64
+  train_epochs: 15
+seed: 4

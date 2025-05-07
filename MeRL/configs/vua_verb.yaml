@@ -1,0 +1,9 @@
+DATA:
+  max_left_len: 140
+  max_right_len: 61
+  use_pos: False
+  max_hop: 7
+TRAIN:
+  train_batch_size: 64
+  class_weight: 4
+  train_epochs: 15
